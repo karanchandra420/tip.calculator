@@ -1,0 +1,120 @@
+.body {
+	font-family: initial;
+	background: red;
+}
+
+.container {
+	height: 20px;
+	width: 80px;
+	margin: 80px auto;
+	background: brown;
+	box-shadow: crimson;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+
+h1 {
+	background: silver;
+	color: white;
+	margin: 0;
+	padding: 10px 100px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: normal;
+	border-top-left-radius: 20px;
+	border-top-right-radius:20px ;
+}
+
+p {
+	padding-left: 20px;
+}
+
+form input [type="text"] {
+	width: 90px;
+}
+
+input {
+	padding-left: 20px;
+}
+.billamt {
+	font-size: 14px;
+	color: red;
+	background-color: darkblue;
+	width: 60%;
+	padding: 5px 5px 8px 8px;
+}
+.billamt: focus {
+	background: purple;
+	border: 3px solid #red;
+	outline: none;
+}
+
+.peopleamt {
+	width: 60%;
+	padding: 5px 5px 8px 8px;
+	margin-left: 2opx;
+	color: red;
+	background-color: blue;
+	font-size: 25px;
+}
+
+.servicequal {
+	padding: 12px 12px 20px 20px;
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.button {
+	text-transform: uppercase;
+}
+.button {
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	margin: 30px auto;
+	background: blue;
+	border-radius: inherit;
+	width: 200px;
+	height: 50px;
+	font-size: 15p;
+	color: white;
+}
+
+
+.button:hover {
+	background: purple;
+	border-bottom-color: darkblue;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.totaltip{
+	font-size: 30px;
+	margin-top: 5px;
+	text-align: center;
+
+}
+
+.totaltip:before {
+	content: "tip amount";
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+}
+
+.totaltip sup {
+	font-size: 20px;
+	top: -15px;
+
+}
+.totaltip small {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+}
+
